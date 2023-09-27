@@ -1,0 +1,1885 @@
+import {
+  Body,
+  Box,
+  Button,
+  Dialog,
+  DialogClose,
+  DialogContent,
+  DialogOverlay,
+  DialogTrigger,
+  Fragment,
+  Heading,
+  HtmlEmbed,
+  Image,
+  Link,
+  Paragraph,
+  Slot,
+  Text,
+  assetBaseUrl,
+  generated_default,
+  imageBaseUrl,
+  imageLoader,
+  json
+} from "/build/_shared/chunk-H45I5NZF.js";
+import "/build/_shared/chunk-GIAAE3CH.js";
+import {
+  require_jsx_dev_runtime
+} from "/build/_shared/chunk-XU7DNSPJ.js";
+import {
+  ReactSdkContext,
+  atom,
+  getPropsByInstanceId
+} from "/build/_shared/chunk-CXTHY3IZ.js";
+import "/build/_shared/chunk-NMZL6IDN.js";
+import {
+  Scripts,
+  ScrollRestoration
+} from "/build/_shared/chunk-BVUAPIXY.js";
+import {
+  require_react
+} from "/build/_shared/chunk-BOXFZXVX.js";
+import {
+  createHotContext
+} from "/build/_shared/chunk-WG7V7Q5R.js";
+import "/build/_shared/chunk-UWV35TSL.js";
+import {
+  __toESM
+} from "/build/_shared/chunk-PNG5AS42.js";
+
+// app/__generated__/[about]._index.tsx
+var import_react = __toESM(require_react());
+var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app\\\\__generated__\\\\[about]._index.tsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+var _s = $RefreshSig$();
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\__generated__\\[about]._index.tsx"
+  );
+  import.meta.hot.lastModified = "1695828217630.6199";
+}
+var fontAssets = [{
+  "id": "1e1bfb48-4b7b-4a0b-bd39-87f504ac9e95",
+  "name": "SpaceGrotesk_wght__2FXqrSM6Qb5IUNmO8wuzl.woff2",
+  "description": null,
+  "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+  "size": 49256,
+  "type": "font",
+  "createdAt": "2023-06-29T05:05:10.384Z",
+  "format": "woff2",
+  "meta": {
+    "family": "Space Grotesk",
+    "variationAxes": {
+      "wght": {
+        "name": "Weight",
+        "min": 300,
+        "default": 300,
+        "max": 700
+      }
+    }
+  }
+}];
+var pageData = {
+  "build": {
+    "props": [["V1aMX7PJ0boP_0Sfr6LBq", {
+      "id": "V1aMX7PJ0boP_0Sfr6LBq",
+      "name": "src",
+      "instanceId": "KqsPjlsJGROcfkdutawGv",
+      "type": "string",
+      "value": "/assets/annie-spratt-dWYU3i-mqEo-unsplash_Bxq7tG0vc6Bhsb97AZfEk.jpeg"
+    }], ["JMzzaS4au56YeT_VhW0q1", {
+      "id": "JMzzaS4au56YeT_VhW0q1",
+      "name": "src",
+      "instanceId": "DAGHbhcf4iVuJMHfEzCwn",
+      "type": "string",
+      "value": "/assets/ludovic-migneault-EZ4TYgXPNWk-unsplash_C5HgJG2-Yl2EIltDMzCpt.jpeg"
+    }], ["WNo5Pw-tyFg1r4w5VGQo2", {
+      "id": "WNo5Pw-tyFg1r4w5VGQo2",
+      "name": "src",
+      "instanceId": "LuKhORPYyhX7i0J4Gzk4U",
+      "type": "string",
+      "value": "/assets/rachel-mcdermott-0fN7Fxv1eWA-unsplash_YSxowXdHZzaAV4_H9RO5I.jpeg"
+    }], ["HqyBOK93vd_JPGRnWTD9q", {
+      "id": "HqyBOK93vd_JPGRnWTD9q",
+      "name": "src",
+      "instanceId": "Q7dM5C2-r4z9W3mbujdnt",
+      "type": "string",
+      "value": "/assets/daria-pimkina-tYaccl19A3Q-unsplash_CxNvWGlbLj4PmQinO9rYg.jpeg"
+    }], ["xE3NkA8Tx54ise-ulK0RJ", {
+      "id": "xE3NkA8Tx54ise-ulK0RJ",
+      "name": "src",
+      "instanceId": "yuWzvn21qpJ4Kfg8C0dMu",
+      "type": "string",
+      "value": "/assets/bruce-mars-8YG31Xn4dSw-unsplash_KJktq3e6bvg4m93KCZgFG.jpeg"
+    }], ["LAu_SeYfG7fj60RuUkGgW", {
+      "id": "LAu_SeYfG7fj60RuUkGgW",
+      "name": "href",
+      "instanceId": "cCSuWXG7aRl8V6QoIt-Dv",
+      "type": "string",
+      "value": "/about"
+    }], ["BWVjGFumRewXLh5Gzgvgs", {
+      "id": "BWVjGFumRewXLh5Gzgvgs",
+      "instanceId": "cCSuWXG7aRl8V6QoIt-Dv",
+      "name": "target",
+      "type": "string",
+      "value": "_self"
+    }], ["WLMGGXQGDH5dKwm3nV-in", {
+      "id": "WLMGGXQGDH5dKwm3nV-in",
+      "instanceId": "cCSuWXG7aRl8V6QoIt-Dv",
+      "name": "prefetch",
+      "type": "string",
+      "value": "intent"
+    }], ["1Nz45CUOzNPS4zoxHeOqr", {
+      "id": "1Nz45CUOzNPS4zoxHeOqr",
+      "name": "href",
+      "instanceId": "YZvKvq7TdJPOHQ4gZ0zcp",
+      "type": "string",
+      "value": "/pricing"
+    }], ["N9MmSglBodwLfZCu9R0Gt", {
+      "id": "N9MmSglBodwLfZCu9R0Gt",
+      "instanceId": "YZvKvq7TdJPOHQ4gZ0zcp",
+      "name": "target",
+      "type": "string",
+      "value": "_self"
+    }], ["yM4p46VGnnB-RDNs5m3ic", {
+      "id": "yM4p46VGnnB-RDNs5m3ic",
+      "instanceId": "YZvKvq7TdJPOHQ4gZ0zcp",
+      "name": "prefetch",
+      "type": "string",
+      "value": "intent"
+    }], ["9RrfHjqD2jQSCa2WKVvxr", {
+      "id": "9RrfHjqD2jQSCa2WKVvxr",
+      "name": "src",
+      "instanceId": "_Z_nbuXMarQm1wTKwZYBj",
+      "type": "string",
+      "value": "/assets/ashton-bingham-EQFtEzJGERg-unsplash_n3B2v0oYFr8F3I9AcvNQP.jpeg"
+    }], ["j5r3xWUXzJGPojKer9bdM", {
+      "id": "j5r3xWUXzJGPojKer9bdM",
+      "name": "src",
+      "instanceId": "ScbCUoA32ufgfTqunwuGn",
+      "type": "string",
+      "value": "/assets/christina-wocintechchat-com-SJvDxw0azqw-unsplash_2Vhjv5ot3JkLy18j5ONvm.jpeg"
+    }], ["6BfP41vAgRfzylaCQ35uv", {
+      "id": "6BfP41vAgRfzylaCQ35uv",
+      "name": "src",
+      "instanceId": "GqgSaJ3ojuvmyxaOu9dLT",
+      "type": "string",
+      "value": "/assets/vicky-hladynets-C8Ta0gwPbQg-unsplash_JS3NJkGLTPL9D96tXRp8R.jpeg"
+    }], ["N34PO0MTy_-JQz8-tPNqt", {
+      "id": "N34PO0MTy_-JQz8-tPNqt",
+      "name": "src",
+      "instanceId": "fXf6nxm7WGsFvcpM0NsD3",
+      "type": "string",
+      "value": "/assets/joel-mott-VWGPhJyzMQ4-unsplash_-mcHxc58jA6kom3rcyacw.jpeg"
+    }], ["bZ7AGYNt05jKbw6s71tx7", {
+      "id": "bZ7AGYNt05jKbw6s71tx7",
+      "name": "src",
+      "instanceId": "tdTcTUxZBEWwuhUA594LO",
+      "type": "string",
+      "value": "/assets/sigmund-jzz_3jWMzHA-unsplash_b_VEz4vDDo56YTgGRuVhA.jpeg"
+    }], ["vocCZCQaBlxT9wmy9Zs_J", {
+      "id": "vocCZCQaBlxT9wmy9Zs_J",
+      "name": "src",
+      "instanceId": "WFQsxzFqj7kpnWi3wXISu",
+      "type": "string",
+      "value": "/assets/foto-sushi-6anudmpILw4-unsplash_9L8RY7TY_Q1EPcvxO_oFX.jpeg"
+    }], ["MAdhg7s6pHXwhP9cfWfWY", {
+      "id": "MAdhg7s6pHXwhP9cfWfWY",
+      "name": "src",
+      "instanceId": "zhA3mc9ROh4CihqFD6bI8",
+      "type": "string",
+      "value": "/assets/christina-wocintechchat-com-7JGjoSVfIDM-unsplash_2iRG6rykIJrYxZ5IjPWGj.jpeg"
+    }], ["CN6uhwE-TMK8MHKubjZ4v", {
+      "id": "CN6uhwE-TMK8MHKubjZ4v",
+      "name": "src",
+      "instanceId": "I3tindkPwX4cLrafudm-_",
+      "type": "string",
+      "value": "/assets/luis-villasmil-hh3ViD0r0Rc-unsplash_59b2CxQV6HODjB0t2loEF.jpeg"
+    }], ["QKtv0RjX03UCxtU48njno", {
+      "id": "QKtv0RjX03UCxtU48njno",
+      "name": "src",
+      "instanceId": "iOBp1M8075Q_x5QhA9yfv",
+      "type": "string",
+      "value": "/assets/jake-nackos-IF9TK5Uy-KI-unsplash_PGNJ6DB8F_VD49AWLsQcW.jpeg"
+    }], ["gfki1Y9AeNt7kI4QJVQtU", {
+      "id": "gfki1Y9AeNt7kI4QJVQtU",
+      "name": "src",
+      "instanceId": "0_SL7kYubQYOSBMUPDaJC",
+      "type": "string",
+      "value": "/assets/thai-an-E2Yd6K2A3fE-unsplash_Tg8ZBdBE4SGkh2_5hQ0tP.jpeg"
+    }], ["oRe2IwQkIhuHEKXBE8fco", {
+      "id": "oRe2IwQkIhuHEKXBE8fco",
+      "name": "src",
+      "instanceId": "xV5VJN7PrQ42LT0G9ophv",
+      "type": "string",
+      "value": "/assets/edward-cisneros-_H6wpor9mjs-unsplash_wSHJ4intTHufcvH563kj2.jpeg"
+    }], ["2Kt6ygFYOTCUhv1KRKm5l", {
+      "id": "2Kt6ygFYOTCUhv1KRKm5l",
+      "instanceId": "cgHhI9Kh3-nHGI_D69LV3",
+      "name": "open",
+      "type": "dataSource",
+      "value": "baGlMNFriTWjwK41psgB_"
+    }], ["Y_nFStpxaZynBZBMwv0HI", {
+      "id": "Y_nFStpxaZynBZBMwv0HI",
+      "instanceId": "cgHhI9Kh3-nHGI_D69LV3",
+      "name": "onOpenChange",
+      "type": "action",
+      "value": [{
+        "type": "execute",
+        "args": ["open"],
+        "code": "$ws$dataSource$baGlMNFriTWjwK41psgB_ = open"
+      }]
+    }], ["C3S018xzT4X1SRlcwPx1q", {
+      "id": "C3S018xzT4X1SRlcwPx1q",
+      "instanceId": "0emPLKUBAOQTyVrPfa1V5",
+      "name": "code",
+      "type": "string",
+      "value": '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" fill="currentColor" width="100%" height="100%" style="display: block;"><path fill-rule="evenodd" d="M2 5.998a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 5.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 5.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>'
+    }], ["15q1k-LXpGu51oT4FgsFN", {
+      "id": "15q1k-LXpGu51oT4FgsFN",
+      "instanceId": "Gxg26Cbkilf_rlZq5ULhz",
+      "name": "code",
+      "type": "string",
+      "value": '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="100%" height="100%" style="display: block;"><path fill-rule="evenodd" d="M13.566 2.434a.8.8 0 0 1 0 1.132L9.13 8l4.435 4.434a.8.8 0 0 1-1.132 1.132L8 9.13l-4.434 4.435a.8.8 0 0 1-1.132-1.132L6.87 8 2.434 3.566a.8.8 0 0 1 1.132-1.132L8 6.87l4.434-4.435a.8.8 0 0 1 1.132 0Z" clip-rule="evenodd"/></svg>'
+    }], ["Z3_A69UCQvIMR5yXVekq-", {
+      "id": "Z3_A69UCQvIMR5yXVekq-",
+      "instanceId": "cgHhI9Kh3-nHGI_D69LV3",
+      "name": "data-ws-show",
+      "type": "boolean",
+      "value": true
+    }], ["GPa8qTfE_rdWw40A5n9jY", {
+      "id": "GPa8qTfE_rdWw40A5n9jY",
+      "instanceId": "KqsPjlsJGROcfkdutawGv",
+      "name": "loading",
+      "type": "string",
+      "value": "eager"
+    }], ["dVbE97GVIX9Hd9lUYCzKO", {
+      "id": "dVbE97GVIX9Hd9lUYCzKO",
+      "name": "href",
+      "instanceId": "FhAJxmce_FA6XmDDVIW3i",
+      "type": "string",
+      "value": "/"
+    }], ["irlV56NrKBoHIngPpTOcJ", {
+      "id": "irlV56NrKBoHIngPpTOcJ",
+      "instanceId": "FhAJxmce_FA6XmDDVIW3i",
+      "name": "target",
+      "type": "string",
+      "value": "_self"
+    }], ["VbRwAdqXXpgzKoDxbMrIE", {
+      "id": "VbRwAdqXXpgzKoDxbMrIE",
+      "instanceId": "FhAJxmce_FA6XmDDVIW3i",
+      "name": "prefetch",
+      "type": "string",
+      "value": "intent"
+    }], ["sdGfAMtkSkKtOcrtij3yX", {
+      "id": "sdGfAMtkSkKtOcrtij3yX",
+      "instanceId": "4VgBDNAygLhwa4uli1-zy",
+      "name": "tabIndex",
+      "type": "number",
+      "value": 0
+    }]]
+  },
+  "pages": [{
+    "id": "9xR9hAVSFQsls07ekq14k",
+    "name": "Home",
+    "title": "Home",
+    "meta": {},
+    "rootInstanceId": "yciogBG54zs9zd-BUDKkU",
+    "path": ""
+  }, {
+    "id": "PHeEs4hMZj33Zb35FsLBN",
+    "name": "Pricing",
+    "title": "Pricing",
+    "meta": {
+      "description": ""
+    },
+    "rootInstanceId": "2PFYynoY82EW6YhZd359t",
+    "path": "/pricing"
+  }, {
+    "id": "7xIBU59ZcBYTdlcKpsBLq",
+    "name": "About",
+    "title": "About",
+    "meta": {
+      "description": ""
+    },
+    "rootInstanceId": "Aij73qPi0LPlTuTPUho6r",
+    "path": "/about"
+  }],
+  "page": {
+    "id": "7xIBU59ZcBYTdlcKpsBLq",
+    "name": "About",
+    "title": "About",
+    "meta": {
+      "description": ""
+    },
+    "rootInstanceId": "Aij73qPi0LPlTuTPUho6r",
+    "path": "/about"
+  },
+  "assets": [{
+    "id": "60355699-b9ef-4c0c-8f28-73b15f7a5972",
+    "name": "Features_1.1_C4sg2-k5JE9lwGH1oFAxX.jpg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 521864,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-08-08T06:52:24.158Z",
+    "meta": {
+      "width": 1920,
+      "height": 1080
+    }
+  }, {
+    "id": "b98b1840-6ce8-406b-87bc-124b8d110013",
+    "name": "Features_1.3_sCXJ-BElFe5G5qdreXLl2.jpg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 438504,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-08-08T06:52:24.089Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "221efd0c-6cdb-4aae-9991-de8e398ffcb6",
+    "name": "Features_1.2_VgPZ6iAQigOpBf-Mn33W3.jpg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 618605,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-08-08T06:52:24.044Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "ab55f657-6dca-43a9-9e5e-e8c44bcf1c8d",
+    "name": "Features_2.4_2wCq34wGy7mXEZheN65Ht.jpg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 272626,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-08-04T00:15:01.092Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "40d19ca6-9520-4382-8a5d-eb1448ebed89",
+    "name": "Features_2.1_NIscvc7PVCAtEejnPT2I3.png",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 56703,
+    "type": "image",
+    "format": "png",
+    "createdAt": "2023-07-28T05:41:38.887Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "5c9b83a3-b0b8-4774-a3f0-f1a2754bb70b",
+    "name": "Features_2.3_x8WxiEDSffKUEbdqQdEhA.png",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 166040,
+    "type": "image",
+    "format": "png",
+    "createdAt": "2023-07-28T05:37:40.660Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "570689c3-6b4d-45c8-b39e-2d620a8b5b3d",
+    "name": "Features_2.2_iIeJXZR4vR2mQD4yPOIW1.png",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 184199,
+    "type": "image",
+    "format": "png",
+    "createdAt": "2023-07-28T05:37:21.235Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "93021a48-af20-427b-a189-335e95fbd973",
+    "name": "Features_2.1_o27GLo-ZEDSqvwMxU5maT.png",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 64401,
+    "type": "image",
+    "format": "png",
+    "createdAt": "2023-07-28T05:37:05.057Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "6cd2cc3e-05a9-4335-b8d5-c44e02752ef4",
+    "name": "andrew-power-y9L5-wmifaY-unsplash_dMh4R7uKXN1lnM5k2QTmt.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 363817,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-28T00:01:38.654Z",
+    "meta": {
+      "width": 1920,
+      "height": 1920
+    }
+  }, {
+    "id": "b281a9b4-9df8-4325-a931-e59414c95ff6",
+    "name": "clay-elliot-mpDV4xaFP8c-unsplash_TxKpZ1DjGYzXIYNJ0iwW1.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 416475,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:54:28.790Z",
+    "meta": {
+      "width": 1920,
+      "height": 1920
+    }
+  }, {
+    "id": "d106fb5b-adcb-4f9e-ac2b-ca1a3a895f63",
+    "name": "leilani-angel-K84vnnzxmTQ-unsplash_hTwP6Ll8K4KCXsx4D9Ef0.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 199889,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:54:04.664Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "be5f4466-449a-424d-9c2a-8c9969ba1422",
+    "name": "linkedin-sales-solutions-QgYvORVDdd8-unsplash_Xm_WpENtQPgyvXKExi_tB.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 381521,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:53:45.665Z",
+    "meta": {
+      "width": 1920,
+      "height": 1920
+    }
+  }, {
+    "id": "e7a5b6f4-1a35-4213-bc7a-c6a1f031c16c",
+    "name": "annie-spratt-dWYU3i-mqEo-unsplash_Bxq7tG0vc6Bhsb97AZfEk.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 433712,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:46:12.750Z",
+    "meta": {
+      "width": 1920,
+      "height": 1281
+    }
+  }, {
+    "id": "cfcf5c90-400a-49a5-9805-79392785e5c9",
+    "name": "thai-an-E2Yd6K2A3fE-unsplash_Tg8ZBdBE4SGkh2_5hQ0tP.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 231981,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:45:31.070Z",
+    "meta": {
+      "width": 1920,
+      "height": 1920
+    }
+  }, {
+    "id": "96e625a7-e04d-4409-8915-618337112dcc",
+    "name": "joel-mott-VWGPhJyzMQ4-unsplash_-mcHxc58jA6kom3rcyacw.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 248005,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:43:37.368Z",
+    "meta": {
+      "width": 1920,
+      "height": 1920
+    }
+  }, {
+    "id": "50310230-ba74-4270-941a-b4c47b01dac3",
+    "name": "vicky-hladynets-C8Ta0gwPbQg-unsplash_JS3NJkGLTPL9D96tXRp8R.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 250306,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:43:11.295Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "b40f3847-bbee-4a1d-bf17-599cc25bee70",
+    "name": "christina-wocintechchat-com-SJvDxw0azqw-unsplash_2Vhjv5ot3JkLy18j5ONvm.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 514994,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:37:13.548Z",
+    "meta": {
+      "width": 1920,
+      "height": 1920
+    }
+  }, {
+    "id": "0d20baae-c818-4e27-b8db-2aba9bb9abc8",
+    "name": "bruce-mars-8YG31Xn4dSw-unsplash_KJktq3e6bvg4m93KCZgFG.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 258631,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:35:49.779Z",
+    "meta": {
+      "width": 1920,
+      "height": 1920
+    }
+  }, {
+    "id": "a5d7152a-d834-44c8-9d49-636465a12e93",
+    "name": "daria-pimkina-tYaccl19A3Q-unsplash_CxNvWGlbLj4PmQinO9rYg.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 255793,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T23:35:25.326Z",
+    "meta": {
+      "width": 1315,
+      "height": 1315
+    }
+  }, {
+    "id": "c0b45f62-5f15-4256-93fa-cf57e90179d7",
+    "name": "rachel-mcdermott-0fN7Fxv1eWA-unsplash_YSxowXdHZzaAV4_H9RO5I.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 169321,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:24:51.545Z",
+    "meta": {
+      "width": 1920,
+      "height": 1498
+    }
+  }, {
+    "id": "c2131080-1201-4824-af48-a9e4ee4cfed6",
+    "name": "ludovic-migneault-EZ4TYgXPNWk-unsplash_C5HgJG2-Yl2EIltDMzCpt.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 480646,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:23:34.882Z",
+    "meta": {
+      "width": 1280,
+      "height": 1920
+    }
+  }, {
+    "id": "53313698-3a84-41e2-b33d-ef50977e34b7",
+    "name": "saksham-gangwar-YVgOh8w1R4s-unsplash_iTt_4ilWzl7GK29jeO_y9.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 204662,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:11:52.132Z",
+    "meta": {
+      "width": 1080,
+      "height": 1234
+    }
+  }, {
+    "id": "3fcfb32c-61bf-4c3a-9815-276b92cf8b1d",
+    "name": "edward-cisneros-_H6wpor9mjs-unsplash_wSHJ4intTHufcvH563kj2.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 229318,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:10:53.843Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "6782c103-c037-4055-8939-c3c79222aa82",
+    "name": "jake-nackos-IF9TK5Uy-KI-unsplash_PGNJ6DB8F_VD49AWLsQcW.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 232394,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:10:28.055Z",
+    "meta": {
+      "width": 1526,
+      "height": 1920
+    }
+  }, {
+    "id": "89ff7c35-fcda-4ef1-a230-6270063654a0",
+    "name": "luis-villasmil-hh3ViD0r0Rc-unsplash_59b2CxQV6HODjB0t2loEF.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 166816,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:09:55.826Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "01042289-d848-4b0c-888d-c76714f563a5",
+    "name": "christina-wocintechchat-com-7JGjoSVfIDM-unsplash_2iRG6rykIJrYxZ5IjPWGj.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 272661,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:09:06.690Z",
+    "meta": {
+      "width": 1282,
+      "height": 1920
+    }
+  }, {
+    "id": "2b223d24-f02f-40cb-9aa6-6050749124ca",
+    "name": "foto-sushi-6anudmpILw4-unsplash_9L8RY7TY_Q1EPcvxO_oFX.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 170171,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:08:44.697Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "07a1a75d-dd0d-418d-bf16-f183363b5fd8",
+    "name": "sigmund-jzz_3jWMzHA-unsplash_b_VEz4vDDo56YTgGRuVhA.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 231064,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:08:03.041Z",
+    "meta": {
+      "width": 1080,
+      "height": 1080
+    }
+  }, {
+    "id": "ca3fb0f6-9035-403c-98f4-01164f90b15b",
+    "name": "ashton-bingham-EQFtEzJGERg-unsplash_n3B2v0oYFr8F3I9AcvNQP.jpeg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 482451,
+    "type": "image",
+    "format": "jpeg",
+    "createdAt": "2023-07-27T22:07:20.449Z",
+    "meta": {
+      "width": 1920,
+      "height": 1082
+    }
+  }, {
+    "id": "8e7b397d-ef04-4db0-bc77-ed04a0b0b54e",
+    "name": "Unlimited_k0pTiJKGKwn0-RBThmp8B.svg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 410,
+    "type": "image",
+    "format": "svg",
+    "createdAt": "2023-07-12T20:27:21.802Z",
+    "meta": {
+      "width": 24,
+      "height": 25
+    }
+  }, {
+    "id": "52504608-a171-45d5-a013-8a179b8fa059",
+    "name": "Star_Half_Full_gd_iVgLUHvt_V-1JmbFSP.svg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 958,
+    "type": "image",
+    "format": "svg",
+    "createdAt": "2023-07-12T20:27:21.304Z",
+    "meta": {
+      "width": 25,
+      "height": 25
+    }
+  }, {
+    "id": "d0fa29af-3a2d-4f24-b2b5-68a4aa11592f",
+    "name": "Star_Full_ImSm64EndSSy1xa20o-Q2.svg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 798,
+    "type": "image",
+    "format": "svg",
+    "createdAt": "2023-07-12T20:27:21.190Z",
+    "meta": {
+      "width": 26,
+      "height": 25
+    }
+  }, {
+    "id": "b78e8bfa-0186-43f1-92f5-090300837afe",
+    "name": "Check_ZuBsfCU5Bi_RHS54ItSG0.svg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 221,
+    "type": "image",
+    "format": "svg",
+    "createdAt": "2023-07-12T20:27:21.029Z",
+    "meta": {
+      "width": 26,
+      "height": 25
+    }
+  }, {
+    "id": "f82e1824-bb7d-4f55-a26d-1f25066673a7",
+    "name": "Twitter_Icon_White_E0esaSuquGdAthJcDsJlI.svg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 845,
+    "type": "image",
+    "format": "svg",
+    "createdAt": "2023-06-30T22:56:44.856Z",
+    "meta": {
+      "width": 16,
+      "height": 13
+    }
+  }, {
+    "id": "1e1bfb48-4b7b-4a0b-bd39-87f504ac9e95",
+    "name": "SpaceGrotesk_wght__2FXqrSM6Qb5IUNmO8wuzl.woff2",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 49256,
+    "type": "font",
+    "createdAt": "2023-06-29T05:05:10.384Z",
+    "format": "woff2",
+    "meta": {
+      "family": "Space Grotesk",
+      "variationAxes": {
+        "wght": {
+          "name": "Weight",
+          "min": 300,
+          "default": 300,
+          "max": 700
+        }
+      }
+    }
+  }, {
+    "id": "e04b2f18-eff3-43d7-a8a5-e0fe61d8f3d3",
+    "name": "logo-icon-color_7lPMMn5N1_sztj7QUZvvx.svg",
+    "description": null,
+    "projectId": "fdb79656-b92a-43f6-915c-d25887d09a1e",
+    "size": 16276,
+    "type": "image",
+    "format": "svg",
+    "createdAt": "2023-03-24T21:43:47.942Z",
+    "meta": {
+      "width": 280,
+      "height": 211
+    }
+  }]
+};
+var Page = (props) => {
+  _s();
+  let [sheetOpen, set$sheetOpen] = (0, import_react.useState)(false);
+  let onOpenChange = (open) => {
+    sheetOpen = open;
+    set$sheetOpen(sheetOpen);
+  };
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Body, { "data-ws-id": "Aij73qPi0LPlTuTPUho6r", "data-ws-component": "Body", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "QEphehzbsp6Mu9uZokWha", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "hCrOEWk9TWQYyVMtCWD98", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "TWSfZDEQ22jm6ORuD81bO", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "91efxtQVNXMPQCM8RISLw", "data-ws-component": "Box", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "FhAJxmce_FA6XmDDVIW3i", "data-ws-component": "Link", href: "/", target: "_self", prefetch: "intent", children: "SaaS Product" }, void 0, false, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 779,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "EQtO7ftc5pPiA3i2FtH_4", "data-ws-component": "Box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "VQ59heNoGMqJNIKFRycu6", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "xxYyDXmQMWja8n9ltcV9f", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "cCSuWXG7aRl8V6QoIt-Dv", "data-ws-component": "Link", href: "/about", target: "_self", prefetch: "intent", children: "About" }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 785,
+          columnNumber: 19
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 784,
+          columnNumber: 17
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 783,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "pLaX2lKW_Z_7dRvGwY27_", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "GfDOpAbAX0MmMST7HuvFo", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "YZvKvq7TdJPOHQ4gZ0zcp", "data-ws-component": "Link", href: "/pricing", target: "_self", prefetch: "intent", children: "Pricing" }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 792,
+          columnNumber: 19
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 791,
+          columnNumber: 17
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 790,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 782,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "dF4T1lt-2AQ3RpBEYt08B", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "SltUxhQ8TuUqJe2-zxrQR", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "lylqznB2R6E8nBL2OFXyB", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "CxxJHG_1OUZ4zqzeW0vKt", "data-ws-component": "Link", children: "Try the App" }, void 0, false, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 801,
+        columnNumber: 19
+      }, this) }, void 0, false, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 800,
+        columnNumber: 17
+      }, this) }, void 0, false, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 799,
+        columnNumber: 15
+      }, this) }, void 0, false, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 798,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Dialog, { "data-ws-id": "cgHhI9Kh3-nHGI_D69LV3", "data-ws-component": "@webstudio-is/sdk-components-react-radix:Dialog", open: sheetOpen, onOpenChange, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(DialogTrigger, { "data-ws-id": "13XUUVUTbo8ogBwnc2-zT", "data-ws-component": "@webstudio-is/sdk-components-react-radix:DialogTrigger", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Button, { "data-ws-id": "CpZHAp7GJUwle5AEC_STZ", "data-ws-component": "Button", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(HtmlEmbed, { "data-ws-id": "0emPLKUBAOQTyVrPfa1V5", "data-ws-component": "HtmlEmbed", code: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" fill="currentColor" width="100%" height="100%" style="display: block;"><path fill-rule="evenodd" d="M2 5.998a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 5.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Zm0 5.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd"/></svg>' }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 810,
+          columnNumber: 19
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 809,
+          columnNumber: 17
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 808,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(DialogOverlay, { "data-ws-id": "Ee5LLqXY5bIaoNU-XdBgo", "data-ws-component": "@webstudio-is/sdk-components-react-radix:DialogOverlay", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(DialogContent, { "data-ws-id": "7mJmpqVW07KKydweeQWDB", "data-ws-component": "@webstudio-is/sdk-components-react-radix:DialogContent", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "3OnqrVo6BLReX06-ng0-X", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "xxYyDXmQMWja8n9ltcV9f", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "cCSuWXG7aRl8V6QoIt-Dv", "data-ws-component": "Link", href: "/about", target: "_self", prefetch: "intent", children: "About" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 817,
+            columnNumber: 23
+          }, this) }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 816,
+            columnNumber: 21
+          }, this) }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 815,
+            columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "K6tNqZ99FEVpwhTK6fUTU", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "GfDOpAbAX0MmMST7HuvFo", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "YZvKvq7TdJPOHQ4gZ0zcp", "data-ws-component": "Link", href: "/pricing", target: "_self", prefetch: "intent", children: "Pricing" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 824,
+            columnNumber: 23
+          }, this) }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 823,
+            columnNumber: 21
+          }, this) }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 822,
+            columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "TBLweN7E8ZvqwS757x2aA", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "lylqznB2R6E8nBL2OFXyB", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "CxxJHG_1OUZ4zqzeW0vKt", "data-ws-component": "Link", children: "Try the App" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 831,
+            columnNumber: 23
+          }, this) }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 830,
+            columnNumber: 21
+          }, this) }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 829,
+            columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "4VgBDNAygLhwa4uli1-zy", "data-ws-component": "Box", tabIndex: 0 }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 836,
+            columnNumber: 19
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(DialogClose, { "data-ws-id": "Hrwk_WYZVCMvdwMHYUJqO", "data-ws-component": "@webstudio-is/sdk-components-react-radix:DialogClose", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(HtmlEmbed, { "data-ws-id": "Gxg26Cbkilf_rlZq5ULhz", "data-ws-component": "HtmlEmbed", code: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="100%" height="100%" style="display: block;"><path fill-rule="evenodd" d="M13.566 2.434a.8.8 0 0 1 0 1.132L9.13 8l4.435 4.434a.8.8 0 0 1-1.132 1.132L8 9.13l-4.434 4.435a.8.8 0 0 1-1.132-1.132L6.87 8 2.434 3.566a.8.8 0 0 1 1.132-1.132L8 6.87l4.434-4.435a.8.8 0 0 1 1.132 0Z" clip-rule="evenodd"/></svg>' }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 838,
+            columnNumber: 21
+          }, this) }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 837,
+            columnNumber: 19
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 814,
+          columnNumber: 17
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 813,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 807,
+        columnNumber: 13
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 778,
+      columnNumber: 11
+    }, this) }, void 0, false, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 777,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 776,
+      columnNumber: 7
+    }, this) }, void 0, false, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 775,
+      columnNumber: 5
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "y0ovkn8orARIOOFqBCavY", "data-ws-component": "Box", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "l6gT2u2sBW1AyrnidCKGr", "data-ws-component": "Box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "krOa8otC_lr-PReApOjUm", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "KqsPjlsJGROcfkdutawGv", "data-ws-component": "Image", src: "/assets/annie-spratt-dWYU3i-mqEo-unsplash_Bxq7tG0vc6Bhsb97AZfEk.jpeg", loading: "eager" }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 850,
+          columnNumber: 11
+        }, this) }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 849,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "oQGErZO0PHEQBYuO3VNsq", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "4yQhPsPx7CKfbsbFv7GSC", "data-ws-component": "Heading", children: "About" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 853,
+            columnNumber: 11
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Text, { "data-ws-id": "7hjBxVpPbjZZY1DEZ0sfg", "data-ws-component": "Text", children: "Together, we stand dedicated to transforming the way teams work, embracing the power of connection to nurture innovation, and creating an environment where every team member can thrive." }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 856,
+            columnNumber: 11
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 852,
+          columnNumber: 9
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 848,
+        columnNumber: 7
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "FJISk8X7xoXFT9tli9YGI", "data-ws-component": "Box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "DJRG8P9fNMzXwaAWduVc2", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "Ob9A1gLACeZM9WM8NErhM", "data-ws-component": "Heading", children: "Meet the Visionaries" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 863,
+            columnNumber: 11
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Text, { "data-ws-id": "fRbeWRTS0jEyRNgaJkXaf", "data-ws-component": "Text", children: "With diverse backgrounds and expertise spanning technology, design, and business strategy, we bring a wealth of knowledge to the table. " }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 866,
+            columnNumber: 11
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 862,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "-BHgfImeEbZMuuejfqHG_", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "JbP0Y5kZoq3Agmn_vxWxC", "data-ws-component": "Box", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "hNvWj0qtQJIKmOf-P_UTB", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "kUmxAfeDen3wlS1gGI0Bf", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "dpoh5YI5b5UgU5gFP5mzb", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "DAGHbhcf4iVuJMHfEzCwn", "data-ws-component": "Image", src: "/assets/ludovic-migneault-EZ4TYgXPNWk-unsplash_C5HgJG2-Yl2EIltDMzCpt.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 875,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 874,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "7oCVAiClOho_XCMBg0hv5", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "ffsq_b52zsMyol1bUrhpg", "data-ws-component": "Heading", children: "Jerome Bell" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 878,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "3Pcu-6ZezwqGQr-xMYH-P", "data-ws-component": "Paragraph", children: "Co-founder and CEO" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 881,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 877,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "aBCYAqIBUO092lnD_vbit", "data-ws-component": "Box" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 885,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 873,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "ae58U7QqzrfPIpfbOdMdu", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "aRdjGH0A-sDS2qQLcThGN", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "LuKhORPYyhX7i0J4Gzk4U", "data-ws-component": "Image", src: "/assets/rachel-mcdermott-0fN7Fxv1eWA-unsplash_YSxowXdHZzaAV4_H9RO5I.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 889,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 888,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "lbywQQ4USXEJuoWZRalm9", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "exha--kaoHwF0yLH1glbr", "data-ws-component": "Heading", children: "Elena Williams" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 892,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "YEY7FFWYSXbl_DM2cHBh5", "data-ws-component": "Paragraph", children: "Co-founder and CTO" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 895,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 891,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "pVzZzd-Av4TlUbIfYY2Df", "data-ws-component": "Box" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 899,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 887,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 872,
+              columnNumber: 13
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "oY1ZFvMr3NOT-JpRHWSDS", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "8SdHBGloKSMADdsoz2Mvl", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "XDFcX4iEu6CdHaqxDRTRx", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "Q7dM5C2-r4z9W3mbujdnt", "data-ws-component": "Image", src: "/assets/daria-pimkina-tYaccl19A3Q-unsplash_CxNvWGlbLj4PmQinO9rYg.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 905,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 904,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "EcquI3M10mIqkLgHa3gH7", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "19ZRkH9RncSQrmCEyZ2rg", "data-ws-component": "Heading", children: "Sarah Miller " }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 908,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "X0hdIaoQ39eyMyW_KtU8h", "data-ws-component": "Paragraph", children: "Head of Product Design" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 911,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 907,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "hIy_5qVV9QE7EmCLoa4mf", "data-ws-component": "Box" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 915,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 903,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "d_nTMgdxuIg75sX68K4IV", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "FqezXZJVy6OIVYgHrGRSL", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "yuWzvn21qpJ4Kfg8C0dMu", "data-ws-component": "Image", src: "/assets/bruce-mars-8YG31Xn4dSw-unsplash_KJktq3e6bvg4m93KCZgFG.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 919,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 918,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "TISzZI2Y57Xy2yYjH5eKV", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "DfW1FpPEQtnWqPArk25Ow", "data-ws-component": "Heading", children: "David Ramirez" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 922,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "ozBbxQF4S-qgn_Yh1p-qV", "data-ws-component": "Paragraph", children: "Lead Software Engineer" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 925,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 921,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "eUKyHBLJ6KGDi46sfrEmr", "data-ws-component": "Box" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 929,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 917,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 902,
+              columnNumber: 13
+            }, this)
+          ] }, void 0, true, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 871,
+            columnNumber: 11
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "nj1MYzdWV_0FZ5AnxMvOl", "data-ws-component": "Box", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "Ym9zpcOavGMeZrdM7ZqKX", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "F9cSJQ08nUA_85aTyppOx", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "RgDO_CQD2ZUh2M6rgu8Vg", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "ScbCUoA32ufgfTqunwuGn", "data-ws-component": "Image", src: "/assets/christina-wocintechchat-com-SJvDxw0azqw-unsplash_2Vhjv5ot3JkLy18j5ONvm.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 937,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 936,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "EqiglCwEnkxvBs-CfDxks", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "6KUnQ2Tbl5t90yBYP8JJS", "data-ws-component": "Heading", children: "Jessica Parker" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 940,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "-JGoXrvf0x8gNNCYAALFu", "data-ws-component": "Paragraph", children: "Marketing and Communications Manager" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 943,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 939,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "V3KAIh83j4Ds3sRcLFnhB", "data-ws-component": "Box" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 947,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 935,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "QM43qR-L_kf7_kQR_nJRb", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "Ew6AOGKdZu3BtRCo_X06z", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "GqgSaJ3ojuvmyxaOu9dLT", "data-ws-component": "Image", src: "/assets/vicky-hladynets-C8Ta0gwPbQg-unsplash_JS3NJkGLTPL9D96tXRp8R.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 951,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 950,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "aH92ZEzeMR3rv-Z8zA1eO", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "90C73zyxN2tRV_XQs_471", "data-ws-component": "Heading", children: "Robert Thompson" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 954,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "frSPziNd5mNoJBU9aGeao", "data-ws-component": "Paragraph", children: "Business Development Specialist" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 957,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 953,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "2_7fMYITutHccBiEoULE8", "data-ws-component": "Box" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 961,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 949,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 934,
+              columnNumber: 13
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "Bi8RArKh4Vi2YGEUEHIGq", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "CnAd_amIrnMjCFcqWqwe6", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "miNTCWQJ03RGHuPj8zY0P", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "fXf6nxm7WGsFvcpM0NsD3", "data-ws-component": "Image", src: "/assets/joel-mott-VWGPhJyzMQ4-unsplash_-mcHxc58jA6kom3rcyacw.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 967,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 966,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "XQUz0hor3Sx27gsWIbbUm", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "tfrfOnHQSv7_UwJ09t21P", "data-ws-component": "Heading", children: "Melissa Lee" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 970,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "cxIpc54DrE3N90hf0NNyV", "data-ws-component": "Paragraph", children: "UX/UI Designer" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 973,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 969,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "T5eKkyh_v0zNNLNx_dLcH", "data-ws-component": "Box" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 977,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 965,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "xg6gF2toApiQ9aQJ-f2Ca", "data-ws-component": "Box" }, void 0, false, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 979,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 964,
+              columnNumber: 13
+            }, this)
+          ] }, void 0, true, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 933,
+            columnNumber: 11
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 870,
+          columnNumber: 9
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 861,
+        columnNumber: 7
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "cnr-e3CwEJrTFptgAQSwv", "data-ws-component": "Box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "VZKri5tXDggaswadXecNl", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "p_fjVqVKt0_ouMrm0TraD", "data-ws-component": "Heading", children: "Our Investors" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 986,
+            columnNumber: 11
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Text, { "data-ws-id": "pgtBTdeNiaeYtfqeN87HV", "data-ws-component": "Text", children: "Our investors' trust in our team and our product inspires us to push boundaries, think creatively, and never settle for the status quo." }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 989,
+            columnNumber: 11
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 985,
+          columnNumber: 9
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "FDqv4pvBlfYOjCzYPEZdf", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "yJNgCa6i1ZTxh2jqlB2e_", "data-ws-component": "Box", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "Y1SEmO3etbUqTdY8t_rXy", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "E7a8ay6Kk09LMyrdNQ2MD", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "vRA5Cim4Trc9cCPlzc-wm", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "_Z_nbuXMarQm1wTKwZYBj", "data-ws-component": "Image", src: "/assets/ashton-bingham-EQFtEzJGERg-unsplash_n3B2v0oYFr8F3I9AcvNQP.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 998,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 997,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "Q08XcskX3DpBTRVZ3tqVt", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "D2oczgUKN7INqQ8nDd1C1", "data-ws-component": "Heading", children: "Thomas Anderson" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1001,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "K_3JVeCvgouGt0GBiWJSV", "data-ws-component": "Paragraph", children: "Venture Capital Partners, Managing Director" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1004,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1e3,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 996,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "DKDF6PFiwbKQUeKBnagxp", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "5er1IbnT1wzFlADEjnz94", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "tdTcTUxZBEWwuhUA594LO", "data-ws-component": "Image", src: "/assets/sigmund-jzz_3jWMzHA-unsplash_b_VEz4vDDo56YTgGRuVhA.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1011,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1010,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "EVYYxjiCjBzKeqFi6VMSw", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "J_a7lfwe0EJjg_F5ohzDP", "data-ws-component": "Heading", children: "Jessica Martinez" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1014,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "HDXZ380j2QehQ2jRWna3X", "data-ws-component": "Paragraph", children: "Tech Innovations Fund, Principal Investor" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1017,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1013,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 1009,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 995,
+              columnNumber: 13
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "5ASv0Y9gW1syeVA__xDjv", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "UnlAbUrA9WaWbzrCg--P6", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "-ZdIOQOTFk2BgZ3nO72Jw", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "WFQsxzFqj7kpnWi3wXISu", "data-ws-component": "Image", src: "/assets/foto-sushi-6anudmpILw4-unsplash_9L8RY7TY_Q1EPcvxO_oFX.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1026,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1025,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "XMClOXjqqj1C7S5F88sRx", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "WIe_KKFBtSWKJOx9vMfW4", "data-ws-component": "Heading", children: "David Wilson" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1029,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "3BNgvFgBEwmay3rR3DesZ", "data-ws-component": "Paragraph", children: "Growth Ventures Inc., Senior Partner" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1032,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1028,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 1024,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "FQbtc4ny7V8xjPUtA3MqI", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "FxQrMynJ7Uq7B7PIkmXNO", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "zhA3mc9ROh4CihqFD6bI8", "data-ws-component": "Image", src: "/assets/christina-wocintechchat-com-7JGjoSVfIDM-unsplash_2iRG6rykIJrYxZ5IjPWGj.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1039,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1038,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "T4NpZiLEsG7jtZ36r3HfJ", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "9bLRXLFEfo9XBKHvKXYwZ", "data-ws-component": "Heading", children: "Rachel Chen" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1042,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "uvZOHZwyMbf1PuxOtq1XN", "data-ws-component": "Paragraph", children: "Impact Investments Group, Head of Investments" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1045,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1041,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 1037,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 1023,
+              columnNumber: 13
+            }, this)
+          ] }, void 0, true, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 994,
+            columnNumber: 11
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "Dv9pg_7vl6k2OeM5CFLWo", "data-ws-component": "Box", children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "VrVTk_oSzrxS_Q57tLCMa", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "KpMUv-_BcXTa6ksYvrw_h", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "eFkpkOLjEsubh0U_m7Mmz", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "I3tindkPwX4cLrafudm-_", "data-ws-component": "Image", src: "/assets/luis-villasmil-hh3ViD0r0Rc-unsplash_59b2CxQV6HODjB0t2loEF.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1056,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1055,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "dTIMUCrn8C_NdWM5SvKlM", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "YgLe4tL5vAg1zG3EkKUm_", "data-ws-component": "Heading", children: "Jonathan Patel" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1059,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "xiPeu_or6z45Pw7HYsP-9", "data-ws-component": "Paragraph", children: "Global Innovators Fund, Managing Partner" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1062,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1058,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 1054,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "8JqroTaQBdU7Yirz0C2We", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "lqgmGRHBsu71yj4PaqXGl", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "iOBp1M8075Q_x5QhA9yfv", "data-ws-component": "Image", src: "/assets/jake-nackos-IF9TK5Uy-KI-unsplash_PGNJ6DB8F_VD49AWLsQcW.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1069,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1068,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "_x3yQ7zrwZ8VZHQVJcLJ2", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "kR5xKldJU9G9psPpLseZ9", "data-ws-component": "Heading", children: "Laura Sanchez" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1072,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "v9RMQW35MhNsOKfn0DfbE", "data-ws-component": "Paragraph", children: "Sustainable Futures Capital, Investment Analyst" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1075,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1071,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 1067,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 1053,
+              columnNumber: 13
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "d3kuBtzHlozOSX8RL2yL7", "data-ws-component": "Box", children: [
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "6i6EsYUbIZpRFiWqAYyAt", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "KuAZUMRsyqDAOt9_ve6NT", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "0_SL7kYubQYOSBMUPDaJC", "data-ws-component": "Image", src: "/assets/thai-an-E2Yd6K2A3fE-unsplash_Tg8ZBdBE4SGkh2_5hQ0tP.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1084,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1083,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "ChGADBNm30EX2aD9G0ZUc", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "swn5DQ7eTtIUw-xiwEluD", "data-ws-component": "Heading", children: "Michael Lee" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1087,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "pKAuhgEBNz-FS5ypg35Hk", "data-ws-component": "Paragraph", children: "Strategic Ventures Ltd., Managing Director" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1090,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1086,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 1082,
+                columnNumber: 15
+              }, this),
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "s0gKMKKf0DSM-_NCfUymx", "data-ws-component": "Box", children: [
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "ImxFTamSdnj58VUwMuQP4", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Image, { "data-ws-id": "xV5VJN7PrQ42LT0G9ophv", "data-ws-component": "Image", src: "/assets/edward-cisneros-_H6wpor9mjs-unsplash_wSHJ4intTHufcvH563kj2.jpeg" }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1097,
+                  columnNumber: 19
+                }, this) }, void 0, false, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1096,
+                  columnNumber: 17
+                }, this),
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "7kGFi4uOIK-lZ2KNNEAtz", "data-ws-component": "Box", children: [
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Heading, { "data-ws-id": "PeTkrcQ4RoS7oaXFjlsfs", "data-ws-component": "Heading", children: "Melissa Thompson" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1100,
+                    columnNumber: 19
+                  }, this),
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Paragraph, { "data-ws-id": "9mEkQwTFgLZJOJ5NpiCA3", "data-ws-component": "Paragraph", children: "FutureTech Fund, Investment Manager" }, void 0, false, {
+                    fileName: "app/__generated__/[about]._index.tsx",
+                    lineNumber: 1103,
+                    columnNumber: 19
+                  }, this)
+                ] }, void 0, true, {
+                  fileName: "app/__generated__/[about]._index.tsx",
+                  lineNumber: 1099,
+                  columnNumber: 17
+                }, this)
+              ] }, void 0, true, {
+                fileName: "app/__generated__/[about]._index.tsx",
+                lineNumber: 1095,
+                columnNumber: 15
+              }, this)
+            ] }, void 0, true, {
+              fileName: "app/__generated__/[about]._index.tsx",
+              lineNumber: 1081,
+              columnNumber: 13
+            }, this)
+          ] }, void 0, true, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1052,
+            columnNumber: 11
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 993,
+          columnNumber: 9
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 984,
+        columnNumber: 7
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 847,
+      columnNumber: 5
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Slot, { "data-ws-id": "RB-59O22rSqexBPG1nF0Y", "data-ws-component": "Slot", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Fragment, { "data-ws-id": "LXAE0omYOBDRhwHgmjbxd", "data-ws-component": "Fragment", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "etSoQ_YpqbbjYSdf5gDn_", "data-ws-component": "Box", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "T3kf2U4vSUW1jD4y_NEma", "data-ws-component": "Box", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "_5z42eLI3fQfzg74Ywbb1", "data-ws-component": "Box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "8_lYbS23oem75lqyneJKk", "data-ws-component": "Link", children: "SaaS Product" }, void 0, false, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 1118,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "ZyWzCL9VJFsmbTZBNU9-c", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Text, { "data-ws-id": "xJocVo6XEiFAGYZU4WEBy", "data-ws-component": "Text", children: "Company" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1122,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "OemFDMxMz1dQm6ZNizOMu", "data-ws-component": "Link", children: "Team" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1125,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "RyCe2Bi_tJJxSIa6o--Yd", "data-ws-component": "Link", children: "Privacy Policy" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1128,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "fymS9Wubd_R1Ni-24Zyx6", "data-ws-component": "Link", children: "Terms of Service" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1131,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 1121,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 1117,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "jNyPk4jlM6WQIun_94FT1", "data-ws-component": "Box", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "tAD0q_c3Lcz3S18VRY9VO", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Text, { "data-ws-id": "dJ3D3qquPPEVbf4FQytOh", "data-ws-component": "Text", children: "Community" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1138,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "KF0zY92pvFsNrmUkiD2iq", "data-ws-component": "Link", children: "Github" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1141,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "k_TUj7O7myu3xDr7wGUNx", "data-ws-component": "Link", children: "Discord" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1144,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "dLWBQCL9gyAllSg5RXwyU", "data-ws-component": "Link", children: "Twitter" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1147,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "GFaKIM1XZQEAZ-qwxKOx_", "data-ws-component": "Link", children: "Product Hunt" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1150,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 1137,
+          columnNumber: 15
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Box, { "data-ws-id": "EtrG_tdm2KROkPiB9DlEM", "data-ws-component": "Box", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Text, { "data-ws-id": "sQd2JlvN3_sraUU2JjqrV", "data-ws-component": "Text", children: "Product" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1155,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "_-DoDHqUkbX9m6W1L4jk_", "data-ws-component": "Link", children: "Pricing" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1158,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "av5H5w4bddISdUjP9Fxl0", "data-ws-component": "Link", children: "Download" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1161,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { "data-ws-id": "CP_4Oip6tvDePQJWy5Pma", "data-ws-component": "Link", children: "Source Code" }, void 0, false, {
+            fileName: "app/__generated__/[about]._index.tsx",
+            lineNumber: 1164,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, true, {
+          fileName: "app/__generated__/[about]._index.tsx",
+          lineNumber: 1154,
+          columnNumber: 15
+        }, this)
+      ] }, void 0, true, {
+        fileName: "app/__generated__/[about]._index.tsx",
+        lineNumber: 1136,
+        columnNumber: 13
+      }, this)
+    ] }, void 0, true, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 1116,
+      columnNumber: 11
+    }, this) }, void 0, false, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 1115,
+      columnNumber: 9
+    }, this) }, void 0, false, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 1114,
+      columnNumber: 7
+    }, this) }, void 0, false, {
+      fileName: "app/__generated__/[about]._index.tsx",
+      lineNumber: 1113,
+      columnNumber: 5
+    }, this),
+    props.scripts
+  ] }, void 0, true, {
+    fileName: "app/__generated__/[about]._index.tsx",
+    lineNumber: 774,
+    columnNumber: 10
+  }, this);
+};
+_s(Page, "hVYZ90npBdx0fbBPPhQMyoYXyuU=");
+_c = Page;
+var pagesPaths = /* @__PURE__ */ new Set(["", "/pricing", "/about"]);
+var _c;
+$RefreshReg$(_c, "Page");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+
+// app/routes/[about]._index.tsx
+var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
+if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
+  console.warn("remix:hmr: React Fast Refresh only works when the Remix compiler is running in development mode.");
+} else {
+  prevRefreshReg = window.$RefreshReg$;
+  prevRefreshSig = window.$RefreshSig$;
+  window.$RefreshReg$ = (type, id) => {
+    window.$RefreshRuntime$.register(type, '"app\\\\routes\\\\[about]._index.tsx"' + id);
+  };
+  window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
+}
+var prevRefreshReg;
+var prevRefreshSig;
+if (import.meta) {
+  import.meta.hot = createHotContext(
+    //@ts-expect-error
+    "app\\routes\\[about]._index.tsx"
+  );
+}
+var meta = () => {
+  const {
+    page
+  } = pageData;
+  const metas = [{
+    title: page?.title || "Webstudio"
+  }];
+  for (const [name, value] of Object.entries(page?.meta ?? {})) {
+    if (name.startsWith("og:")) {
+      metas.push({
+        property: name,
+        content: value
+      });
+      continue;
+    }
+    metas.push({
+      name,
+      content: value
+    });
+  }
+  return metas;
+};
+var links = () => {
+  const result = [];
+  result.push({
+    rel: "stylesheet",
+    href: generated_default
+  });
+  for (const asset of fontAssets) {
+    if (asset.type === "font") {
+      result.push({
+        rel: "preload",
+        href: assetBaseUrl + asset.name,
+        as: "font",
+        crossOrigin: "anonymous"
+        // @todo add mimeType
+        // type: asset.mimeType,
+      });
+    }
+  }
+  return result;
+};
+var Outlet = () => {
+  const page = pageData.page;
+  if (page === void 0) {
+    throw json("Page not found", {
+      status: 404
+    });
+  }
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ReactSdkContext.Provider, { value: {
+    propsByInstanceIdStore: atom(getPropsByInstanceId(new Map(pageData.build.props))),
+    assetsStore: atom(new Map(pageData.assets.map((asset) => [asset.id, asset]))),
+    dataSourcesLogicStore: atom(/* @__PURE__ */ new Map()),
+    imageLoader,
+    assetBaseUrl,
+    imageBaseUrl,
+    pagesPaths,
+    indexesWithinAncestors: /* @__PURE__ */ new Map()
+  }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Page, { scripts: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_jsx_dev_runtime2.Fragment, { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Scripts, {}, void 0, false, {
+      fileName: "app/routes/[about]._index.tsx",
+      lineNumber: 169,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ScrollRestoration, {}, void 0, false, {
+      fileName: "app/routes/[about]._index.tsx",
+      lineNumber: 170,
+      columnNumber: 13
+    }, this)
+  ] }, void 0, true, {
+    fileName: "app/routes/[about]._index.tsx",
+    lineNumber: 168,
+    columnNumber: 22
+  }, this) }, void 0, false, {
+    fileName: "app/routes/[about]._index.tsx",
+    lineNumber: 168,
+    columnNumber: 7
+  }, this) }, void 0, false, {
+    fileName: "app/routes/[about]._index.tsx",
+    lineNumber: 157,
+    columnNumber: 10
+  }, this);
+};
+_c2 = Outlet;
+var about_index_default = Outlet;
+var _c2;
+$RefreshReg$(_c2, "Outlet");
+window.$RefreshReg$ = prevRefreshReg;
+window.$RefreshSig$ = prevRefreshSig;
+export {
+  about_index_default as default,
+  links,
+  meta
+};
+//# sourceMappingURL=/build/routes/[about]._index-MC4722LF.js.map
